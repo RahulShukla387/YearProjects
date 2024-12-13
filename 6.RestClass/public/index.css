@@ -1,0 +1,14 @@
+*{
+    background-color: honeydew;
+}
+.quora{
+    color: maroon;
+}
+
+.user{
+    font-style: italic;
+    color: rgb(34, 4, 36);
+}
+.post{
+    background-color: rgb(233, 236, 225);
+}

@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#user{
+    height: 10rem;
+    width: 30rem;
+    /* margin-left: 10rem; */
+    font-size: 1.5rem;
+    border: 2px solid rgb(50, 65, 3);
+}

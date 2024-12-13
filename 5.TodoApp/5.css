@@ -1,0 +1,14 @@
+#task{
+    width: 500px;
+    height: 50px;
+    border: 2px solid blue;
+    font-size: 2rem;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+}

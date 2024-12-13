@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    flex-direction: column;
+}
+#simon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn{
+    height: 8rem;
+    width: 8rem;
+    border: 3px solid black;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#div1{
+    background-color: red; opacity: 0.5; 
+}
+#div2{
+    background-color: green; opacity: 0.5; 
+}
+#div3{
+    background-color: yellow; opacity: 0.5; 
+}
+#div4{
+    background-color: blue; opacity: 0.5;
+}
+.btnFlash{
+    background-color: rgb(34, 4, 55) !important;
+}
+
+.userFlash{
+    background-color: white !important;
+}
