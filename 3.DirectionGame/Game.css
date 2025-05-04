@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(91, 91, 13);
+}
+input[type = "text"]{
+    width: 300px;
+    height: 200px;
+    background-color: hsl(0, 1%, 67%);
+    font-size: 1rem;
+}

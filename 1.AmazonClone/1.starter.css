@@ -1,0 +1,273 @@
+*{
+     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;  /* It is used to set the border within the given space */
+}
+.navbar{
+    height: 50px;
+    background-color: #087646;
+    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  opacity: 0.7;
+  
+}
+.navLogo{
+ height: 50px;
+ width: 100px;
+ margin: 15px;
+}
+.logo{
+    background-image: url("amazonLogo.png");
+    height: 50px;
+    width: 100%;
+     background-size: contain;  /*contain is used to fix the size of image according to your cntainer; */
+    background-repeat: no-repeat; /* if you don't want to repeat the background */
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+#address1{
+    color: #ccc;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+#bold{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;  /* with respect to the parrent size */
+}
+.icon{
+    display: flex;
+}
+.searchborder{
+width: 500px;
+height: 50px;
+display: flex;
+align-items: center;
+/* border-radius: 10px; */
+justify-content: center;
+}
+#item{
+    width: 50px;
+    height: 100%;
+    font-weight: bold;
+}
+
+#Search1{
+padding:7px 10px 10px 0px ;
+color: #ccc;
+height: 45px;
+width:100%;
+font-size: 1rem;
+border: none;
+}
+#search2{
+    width: 45px;
+    height: 100%;
+    font-size: 1.5rem;
+    margin-left: 0.5px;
+    background-color:rgb(171, 171, 23);
+    color: #0f1111;
+    justify-content: center;
+    align-items: center;
+   
+}
+#sign1{
+font-size: larger;
+}
+/* .signIn{
+    margin-left: 3rem;
+} */
+#cart{
+    /* margin-left: 3rem; */
+    font-size: 2rem;
+    /* align-items: center; */
+}
+.panelBar{
+    height: 39px;
+    /* margin-left: 1rem; */
+    margin-top: 0.3rem;
+    background-color: #087646;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 1;
+}
+#panel2{
+    width: 70%;
+}
+#panel3{
+    margin-right: 1px ;
+    /* width: 100%; */
+}
+.heroAmazon{
+    background-image:url("heroAmazon.jpg");
+    height: 354px;
+    width: 100%;
+    background-size: contain; 
+    background-repeat: repeat;
+   /* height: 100vh; */
+  
+}
+.imgAmazon{
+    background-image: url("img1A.jpg");
+    height: 250px;
+    width: 230px;
+    display: flex;
+    align-items: flex-end;
+    color: rgb(13, 11, 11);
+}
+#cutLine{
+    text-decoration: line-through;
+    color: red;
+ }
+ #img1A{
+    background-image: url("img1A.jpg");
+ }
+#img3A{
+    background-image: url("img3A.jpg");
+}
+#img4A{
+    background-image: url("img4A.jpg");
+   
+}
+#img6A{
+    background-image: url("img6A.jpg");
+    
+} 
+#img7A{
+    background-image: url("img7A.jpg");
+    
+} 
+.secondLine{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ThirdLine{
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    margin-top:10px ;
+}
+#img8A{
+    background-image: url("img8A.jpg");
+    background-repeat: no-repeat;
+ }
+#img9A{
+    background-image: url("img9A.jpg");
+    background-repeat: no-repeat;
+}
+#img10A{
+    background-image: url("img10A.jpg");
+    background-repeat: no-repeat;
+}
+#img11A{
+    background-image: url("img11A.jpg");
+    background-repeat: no-repeat; 
+} 
+#img12A{
+    background-image: url("img12A.jpg");
+    background-repeat: no-repeat;
+} 
+.FourthLine{
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    margin-top:10px ;
+}
+#img13A{
+    background-image: url("img13A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+ }
+#img14A{
+    background-image: url("img14A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+#img15A{
+    background-image: url("img15A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+#img16A{
+    background-image: url("img16A.jpg");
+    background-repeat: no-repeat; 
+    background-size:contain ;
+} 
+#img17A{
+    background-image: url("img17A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+} 
+.ThirdLine{
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    margin-top:10px ;
+    
+}
+#img8A{
+    background-image: url("img8A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+ }
+#img9A{
+    background-image: url("img9A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+#img10A{
+    background-image: url("img10A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+#img11A{
+    background-image: url("img11A.jpg");
+    background-repeat: no-repeat; 
+    background-size:contain ;
+} 
+#img12A{
+    background-image: url("img12A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+} 
+.FifthLine{
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    margin-top:10px ;
+}
+#img18A{
+    background-image: url("img18A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+ }
+#img19A{
+    background-image: url("img19A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+#img20A{
+    background-image: url("img20A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+#img21A{
+    background-image: url("img21A.jpg");
+    background-repeat: no-repeat; 
+    background-size:contain ;
+} 
+#img22A{
+    background-image: url("img22A.jpg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+} 
