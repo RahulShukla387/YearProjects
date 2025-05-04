@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,th, tr,td{
+            border: 1px solid black;
+        }
+    </style>
+    <table>
+        <%for(user of result){  %>
+        <tr>
+            <th>Id: <%= user.id %></th>
+            <th>Email: <%= user.email %></th>
+            <th>UserName: <%= user.username %></th>
+            <th>
+            <form action="/user/<%= user.id %>/edit" method="get">
+                <button>Edit userName</button>
+            </form>
+        </th>
+       
+        </tr>
+        <% } %>
+    </table>
+</body>
+</html>

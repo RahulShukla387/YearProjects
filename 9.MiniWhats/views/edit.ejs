@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit the message </title>
+ </head>
+<body style="background-color: rgb(124, 245, 164);">
+    <h1>Edit the information</h1>
+   <form action="/chat/<%=result.id%>?_method=PUT" method="post">
+    <h3>Id is : <%= result._id %></h3>
+  <p>Message is from <b><%=result.from%></b> to <b><%=result.to %></b></p>
+  <textarea name="msg" id="msg" rows="5"><%=result.msg%></textarea> <br><br>
+  <button type="submit">edit changes</button>
+   </form> 
+ 
+</body>
+</html>

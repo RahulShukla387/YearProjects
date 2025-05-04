@@ -1,0 +1,29 @@
+#symbol{
+    height: 500px;
+    width: 300px;
+  border: 2px solid black;
+  margin-left: 40%;
+  margin-top: 10%;
+  border-radius: 1rem;
+}
+
+.symb{
+    height: 4rem;
+    width: 2rem;
+   border: 1px solid black;
+   border-radius: 30%;
+   align-content: center;
+   margin-left: 1rem;
+}
+#calc{
+  margin-top: 15%;
+  margin-left: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    height: 400px;
+    width: 290px;
+    background-color: antiquewhite;
+ border-radius: 1rem;
+}

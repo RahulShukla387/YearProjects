@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#TTT{
+display: grid;
+grid-template-columns: 10rem 10rem 10rem ;
+grid-template-rows: 10rem 10rem 10rem  ;
+background-color: rgb(184, 153, 234);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 20vb;
+    background-color: rgb(208, 208, 244);
+    border-radius: 20%;
+}
+.fa-solid{
+   font-weight: bolder;
+    font-size: larger;
+}
